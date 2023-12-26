@@ -13,7 +13,7 @@ public class Main {
 
         String url = ApiUrl + "?api_key=" + ApiKey;
 
-        RequestNASA.Test(url);
+        RequestNASA.makeHttpRequest(url);
 
     }
 
